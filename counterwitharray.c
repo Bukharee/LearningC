@@ -5,6 +5,8 @@ int main() {
   int nwhite, nother, c;
   int ndigits[10];
 
+  nwhite = nother = 0;
+
   for (int i = 0; i <= 9; ++i) {
     ndigits[i] = 0;
   }
